@@ -1,0 +1,80 @@
+/** ADD YOUR AWESOME CODES HERE **/
+.name_header h3 {
+  background-color: transparent;
+font-weight: 500;
+padding: 7px 17px 7px;
+-webkit-border-radius: 33px;
+-ms-border-radius: 33px;
+border-radius: 33px;
+line-height: 21px;
+}
+
+.name_header h3:hover,
+.name_header h3:focus {
+  background-color: #60c63e;
+color: #ffffff;
+}
+
+.header_bg {
+  background-color: #60c63e;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 7px 17px 7px;
+  -webkit-border-radius: 33px;
+  -ms-border-radius: 33px;
+  border-radius: 33px;
+  line-height: 21px;
+  font-size: 16px;
+}
+
+.text_color {
+  color: #000000;
+}
+
+.section_margin {
+  margin-top: 120px;
+}
+
+.link_hover:hover {
+  color: #60c63e;
+}
+
+/** The gallery CSS **/
+{box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
